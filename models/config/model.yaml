@@ -1,0 +1,23 @@
+InputLayer:
+  v_size: 40
+  emb_dim: 16  # multiple of head
+  length: 64
+Attention:
+  emb_dim: 16
+  dropout: 0.1
+MultiHeadAttention:
+  emb_dim: 16
+  head: 4
+  hidden_dim: 64 # emb_dim * 4
+  dropout: 0.1
+OutputLayer:
+  v_size: 40
+  emb_dim: 16
+GPT:
+  v_size: 40
+  emb_dim: 16
+  length: 64
+  num_blocks: 32
+  head: 4
+  hidden_dim: 40
+  dropout: 0.1

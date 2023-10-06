@@ -1,0 +1,12 @@
+# for dataset
+length: 64
+batchsize: 4
+
+# for trim
+top_db: 20
+
+# for melspectrogram
+n_mels: 40
+n_fft: 1024
+hop_length: 512
+window_fn: hann
